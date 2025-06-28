@@ -1,6 +1,6 @@
 var posts=["2025/06/23/hello-world/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
-  };var friend_link_list=[{"name":"Hexo","link":"https://hexo.io/zh-tw/","avatar":"https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg","descr":"快速、简单且强大的网站框架"},{"name":"安知鱼","link":null,"avatar":null,"descr":null},{"name":"woodfish","link":"https://woodfishhhh.xyz","avatar":null,"descr":"神，木鱼"}];
+  };var friend_link_list=[{"name":"Hexo","link":"https://hexo.io/zh-tw/","avatar":"https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg","descr":"快速、简单且强大的网站框架"},{"name":"安知鱼","link":"/img/friend_404.gif","avatar":"/img/friend_404.gif","descr":null},{"name":"woodfish","link":"https://woodfishhhh.xyz","avatar":"/img/friend_404.gif","descr":"神，木鱼"}];
     var refreshNum = 1;
     function friendChainRandomTransmission() {
       const randomIndex = Math.floor(Math.random() * friend_link_list.length);
